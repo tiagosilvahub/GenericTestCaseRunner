@@ -48,10 +48,10 @@ public class SolutionRunner {
         if(errors == 0) {
             System.out.println("All tests passed!");
         } else {
-            System.out.println(errors + " tests failed.");
             System.out.println(nTestCases - errors + " tests passed.");
-            System.out.println((0.0 + nTestCases - errors) / nTestCases * 100  + "% of tests passed.");
         }
+        System.out.println(errors + " tests failed.");
+        System.out.println((0.0 + nTestCases - errors) / nTestCases * 100  + "% of tests passed.");
     }
 }
 
