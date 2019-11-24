@@ -1,4 +1,4 @@
 public interface SolutionStrategy {
-    // add result type
-    boolean solve(Object o);
+    // change type of return and input
+    Object solve(Object o);
 }
