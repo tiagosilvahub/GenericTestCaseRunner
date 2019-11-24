@@ -1,7 +1,7 @@
 # GenericTestCaseRunner
 Generic test case runner for programming challenges. 
 
-Copy paste, add your test cases and your solution, cahnge tehe variable types, run and test your solution in less than a minute. 
+Copy paste, add your test cases and your solution, cahnge tehe variable types, run and test your solution in about a minute. 
 
 ```
 public class SolutionsRunner {
