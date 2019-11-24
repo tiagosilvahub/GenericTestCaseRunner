@@ -33,7 +33,7 @@ public class SolutionsRunner {
         } else {
             System.out.println(errors + " tests failed.");
             System.out.println(nTestCases - errors + " tests passed.");
-            System.out.println(nTestCases / errors + "% of tests passed.");
+            System.out.println((0.0 + nTestCases - errors) / nTestCases * 100  + "% of tests passed.");
         }
     }
 }
